@@ -3,6 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <!--springboot父工程-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -10,15 +11,18 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+    <!--当前项目的坐标信息-->
     <groupId>com.xzy</groupId>
     <artifactId>springboot-init</artifactId>
     <version>1.0.0</version>
     <name>springboot-init</name>
 
+    <!--JDK版本信息-->
     <properties>
         <java.version>1.8</java.version>
     </properties>
 
+    <!--springboot依赖的包-->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -120,6 +124,7 @@
         </dependency>
     </dependencies>
 
+    <!--springboot插件-->
     <build>
         <plugins>
             <plugin>
